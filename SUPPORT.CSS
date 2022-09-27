@@ -1,0 +1,260 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+main{
+    width: 100%;
+    height: 100vh;
+    background-image: url("uns3.jpg"); 
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.wrapper-info{
+    padding: 10px;
+    min-height: 164px;
+    background: rgb(2,0,36);
+    background: rgb(15,34,33);
+    background: linear-gradient(90deg, rgba(15,34,33,1) 35%, rgba(9,121,112,1) 100%, rgba(0,212,255,1) 100%, rgba(29,41,42,1) 100%);
+}
+.wrapper-info img{
+    width: 150px;
+    height: 150px;
+    border-radius: 75px;
+    float: left;
+    margin-right: 20px;
+    background-size: contain;
+}
+.wrapper-info h1{
+    color: white;
+    font-size: 50px;
+    font-weight: 500px;
+}
+    
+
+.links a{
+    border-radius: 2px;
+    padding: 1px;
+    transition: .5s;
+}
+.links a:hover{
+    font-size: 20px;
+    transform: scale(1.1);
+    background-color: black !important;
+    color: white;
+}
+.wrapper-parent h1{
+    background-color: rgba(34, 92, 104, 0.5);
+    padding: 10px;
+    color: white;
+    
+}
+
+
+.wrapper-paren h1{
+    padding: 50px;
+    font-size: 90px;
+    line-height: 100px;
+    font-weight: 900;
+    color: transparent;
+    -webkit-text-stroke: 1px white;
+    background: url("binary7.gif");
+    -webkit-background-clip: text;
+    background-position: 0 0;
+    animation: back 25s linear infinite;
+    background-clip: calc();
+    
+}
+@keyframes back{
+    100%{
+        background-position: 1000px 0;
+    }
+}
+
+main-contact{
+    width: 100%;
+    height: 100vh;
+    background-image: url("prog.jpg");
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.links a h5{
+    width: 120px;
+    font-size: 15px;
+}
+.wrapper-parent a{
+    font-size: 20px
+}
+.wrapper-parent2 a{
+    font-size: 20px;
+    padding: 0;
+
+}
+.wrapper-parent2 h1:hover{
+    font-size: 20px;
+    transform: scale(1.1); 
+}
+.wrapper-parent2 h1{
+    border: 5px solid rgba(13, 13, 12, 0.561);
+}
+main-about{
+    width: 100%;
+    height: 100vh;
+    background-image: url("bar1.jpg");
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main-about img:hover{
+    font-size: 20px;
+    transform: scale(1.1);
+    transition: .5s;
+}
+.wrapper-tiktok a{
+    width: 70px;
+    text-align: center;
+    
+}
+.wrapper-mail a{
+    padding: 0px;
+    width: 70px;
+    font-size: 15px;
+}
+.row img{
+    width: 300px;
+    height: 300px;
+    padding: 20px;
+}
+.wrapper-personal{
+    width: 100%;
+    height: 100vh;
+    background-image: url("hacker.jpg"); 
+    background-position: center;
+    background-size: cover;
+    color: rgb(247, 239, 239);
+}
+.wrapper-personal h3{
+    background-color: rgba(8, 22, 25, 0.5);
+    padding: 30px;
+    width: 900px;
+    border-radius: 39px;
+    font-size: 21px;
+}
+.wrapper-personal em{
+    font-style: bold;
+    color: rgb(30, 206, 197)
+}
+.row p{
+    float: right;
+    
+}
+.col{
+    padding: 10px;
+    color: rgb(16, 2, 2);
+    text-align: center;
+}
+
+.main-hobbies{
+    width: 100%;
+    background-image: url("bar5.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+}
+.row video{
+    padding: 2px;
+    width: 330px;
+    height: 500px;
+}
+.row-h h4{
+    color: rgb(222, 238, 231);
+    background-color: rgba(51, 39, 26, 0.5);
+    padding: 10px;
+    margin: 10px;
+}
+.row h1{
+    color: white;
+    background-color: rgba(7, 7, 7, 0.5);
+    padding: 10px;
+ 
+}
+.row h4{
+    margin-bottom: 30px;
+    background-color: rgba(2, 12, 14, 0.792);
+    border-radius: 2px;
+}
+.wrapper-edu{
+    width: 100%;
+    height: 100vh;
+    background-image: url("library.jpg"); 
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    
+}
+.wrapper-edu h2{
+    color: rgba(114, 25, 238, 0.886);
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(2, 11, 13, 0.687);
+
+    font-size: 35px;
+    
+}
+.wrapper-edu h4{
+    color: white;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    
+}
+.wrapper-con h1{
+    position: absolute;
+    bottom: 45px;
+    left: 180px;
+    font-size: 20px;
+}
+
+.social-icons{
+    width: 50px;
+    padding: 10px;
+}
+.row img{
+    border: 2px solid yellow;
+    background-color: rgba(12, 13, 13, 0.738);
+}
+.row-place{
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    color: white;
+
+}
+.wrapper-log{
+    height: 100%;
+    width: 100%;
+    background-image: url("ano3.jpg");
+    background-size: cover;
+    position: absolute;
+
+}
+.wrapper-log h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
