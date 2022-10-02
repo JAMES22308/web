@@ -258,3 +258,11 @@ main-about img:hover{
     justify-content: center;
     color: white;
 }
+@media only screen and (max-width:425px){
+    .wrapper-paren h1{
+        font-size: 50px;
+    }
+    .wrapper-info h1{
+        font-size: 20px;
+    }
+}
