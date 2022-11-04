@@ -16,8 +16,6 @@ main{
 .wrapper-info{
     padding: 10px;
     min-height: 164px;
-    background: rgb(2,0,36);
-    background: rgb(15,34,33);
     background: linear-gradient(90deg, rgba(15,34,33,1) 35%, rgba(9,121,112,1) 100%, rgba(0,212,255,1) 100%, rgba(29,41,42,1) 100%);
 }
 .wrapper-info img{
@@ -143,10 +141,24 @@ main-about img:hover{
 }
 .wrapper-personal h3{
     background-color: rgba(8, 22, 25, 0.5);
-    padding: 30px;
+    padding: 18px;
     width: 900px;
     border-radius: 39px;
     font-size: 21px;
+}
+@media only screen and (max-width: 600px){
+	/*Big smartphones [426px -> 600px]*/
+    .wrapper-personal h3{
+        width: 100%;
+        padding: 10px;
+        border-radius: 2px;
+        margin-left: 2px;;
+        text-align: center;
+        
+    }
+    .description-info{
+        text-align: center;
+    }
 }
 .wrapper-personal em{
     font-style: bold;
@@ -190,8 +202,20 @@ main-about img:hover{
 }
 .row h4{
     margin-bottom: 30px;
-    background-color: rgba(2, 12, 14, 0.792);
+    background-color: rgba(2, 14, 5, 0.792);
     border-radius: 2px;
+}
+@media only screen and (max-width: 600px){
+	/*Big smartphones [426px -> 600px]*/
+    .row h4{
+        background-color: rgba(0, 0, 0, 0.753);
+        font-size: 15px;
+       border-radius: 1px;
+    }
+    .row img{
+    width: 300px;
+    height: 300px;
+    }
 }
 .wrapper-edu{
     width: 100%;
@@ -219,6 +243,25 @@ main-about img:hover{
     align-items: center;
     font-size: 30px;
     
+}
+@media only screen and (max-width: 600px){
+	/*Big smartphones [426px -> 600px]*/
+    .wrapper-edu{
+        text-align: center;
+        
+    }
+    .wrapper-edu h2{
+        font-size: 30px;
+        background-color: yellow;
+    }
+    .wrapper-edu h4{
+        font-size: 25px;
+        background-color: rgba(0, 0, 0, 0.5);
+        margin-left: 20px;
+        margin-right: 20px;
+        
+        
+    }
 }
 .wrapper-con h1{
     position: absolute;
