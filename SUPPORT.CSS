@@ -221,9 +221,8 @@ main-about img:hover{
 @media only screen and (max-width: 600px){
 	/*Big smartphones [426px -> 600px]*/
     .row video{
-        width: 70px;
-        height: 70px;
-        
+        width: 86px;
+        height: 150px;
     }
     
 }
@@ -264,6 +263,7 @@ main-about img:hover{
     width: 70px;
     height: 70px;
     padding: 2px;
+    
     }
 }
 .wrapper-edu{
