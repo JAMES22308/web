@@ -94,6 +94,34 @@ main-contact{
     padding: 0;
 
 }
+@media only screen and (max-width: 600px){
+	/*Big smartphones [426px -> 600px]*/
+    .wrapper-parent2 img{
+        width: 60px;
+        height: 100px;
+        margin: 0px;
+        padding: 0px;
+    }
+    .wrapper-parent p{
+        font-size: 20px;
+    }
+    .wrapper-parent2 h1{
+        
+        background-color: rgba(171, 80, 80, 0.509);
+        width: 78px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .wrapper-parent2 strong{
+        font-size: 11px;
+    }
+    .wrapper-con{
+        position: absolute;
+        left: -170px;
+        bottom: -20px;
+    }
+}
 .wrapper-parent2 h1:hover{
     font-size: 20px;
     transform: scale(1.1); 
@@ -131,6 +159,7 @@ main-about img:hover{
     height: 300px;
     padding: 20px;
 }
+
 .wrapper-personal{
     width: 100%;
     height: 100vh;
@@ -183,10 +212,20 @@ main-about img:hover{
     background-position: center;
     
 }
+
 .row video{
     padding: 2px;
     width: 330px;
     height: 500px;
+}
+@media only screen and (max-width: 600px){
+	/*Big smartphones [426px -> 600px]*/
+    .row video{
+        width: 70px;
+        height: 70px;
+        
+    }
+    
 }
 .row-h h4{
     color: rgb(222, 238, 231);
@@ -195,10 +234,19 @@ main-about img:hover{
     margin: 10px;
 }
 .row h1{
-    color: white;
+    color: rgb(40, 181, 8);
     background-color: rgba(7, 7, 7, 0.5);
     padding: 10px;
  
+}
+@media only screen and (max-width: 600px){
+	/*Big smartphones [426px -> 600px]*/
+    .row h1{
+        padding: 5px;
+        width: 96%;
+        text-align: center;
+
+    }
 }
 .row h4{
     margin-bottom: 30px;
@@ -213,8 +261,9 @@ main-about img:hover{
        border-radius: 1px;
     }
     .row img{
-    width: 300px;
-    height: 300px;
+    width: 70px;
+    height: 70px;
+    padding: 2px;
     }
 }
 .wrapper-edu{
@@ -278,15 +327,7 @@ main-about img:hover{
     border: 2px solid yellow;
     background-color: rgba(12, 13, 13, 0.738);
 }
-.row-place{
-    font-size: 30px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-weight: bold;
-    color: white;
 
-}
 .wrapper-log{
     height: 100%;
     width: 100%;
@@ -309,4 +350,19 @@ main-about img:hover{
     .wrapper-info h1{
         font-size: 20px;
     }
+}
+.row-about img{
+    width: 300px;
+    height: 200px;
+    padding: 10px;
+}
+.row-about p{
+    background-color: yellow;
+    width: 100%;
+    padding: 5px;
+}
+.row-about h4{
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.567);
+    font-size: 15px;
 }
